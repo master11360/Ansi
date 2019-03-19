@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform = :osx, '10.11'
   s.source = { git: 'https://github.com/oleander/Ansi.git', tag: s.version.to_s }
   s.source_files = 'Source/**/*.swift'
-  s.dependency 'FootlessParser'
-  s.dependency 'Hue'
-  s.dependency 'BonMot'
+  s.dependency 'FootlessParser', '~> 0.5.1' 
+  s.dependency 'Hue', '~> 4.0.0'
+  s.dependency 'BonMot', '~> 5.3'
 end
