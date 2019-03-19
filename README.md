@@ -1,6 +1,6 @@
 # Ansi [![Status](https://travis-ci.org/oleander/Ansi.svg?branch=master)](https://travis-ci.org/oleander/Ansi)
 
-Ansi parser written in Swift 3 for constructing `NSAttributedString`s. Currently supports 8 & 256 bit colors, italic, strikethrough, underline and bold text.
+Ansi parser written in Swift 3 (and now updated for Swift 4.2) for constructing `NSAttributedString`s. Currently supports 8 & 256 bit colors, italic, strikethrough, underline and bold text.
 
 ## Usage
 
