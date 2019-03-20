@@ -1,6 +1,13 @@
-# Ansi [![Status](https://travis-ci.org/MikeManzo/Ansi.svg?branch=master)](https://travis-ci.org/MikeManzo/Ansi)
+# Ansi 
+[![Status](https://travis-ci.org/MikeManzo/Ansi.svg?branch=master)](https://travis-ci.org/MikeManzo/Ansi)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mikemanzo/Ansi.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/MikeManzo/Ansi.svg)
+![Cocoapods platforms](https://img.shields.io/cocoapods/p/Ansi.svg)
+![Swift](https://img.shields.io/badge/%20in-swift%204.0-orange.svg)
 
-Ansi parser written in Swift 3 (and now updated for Swift 4.2) for constructing `NSAttributedString`s. Currently supports 8 & 256 bit colors, italic, strikethrough, underline and bold text.
+Ansi parser forked from [oleander](https://github.com/oleander/Ansi) updated for Swift 4.2 that constructs `NSAttributedString`s for ANSI-escaped text.
+
+Currently only supports 8 & 256 bit colors, italic, strikethrough, underline and bold text.
 
 ## Usage
 
