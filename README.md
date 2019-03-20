@@ -3,7 +3,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mikemanzo/Ansi.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/MikeManzo/Ansi.svg)
 ![Cocoapods platforms](https://img.shields.io/cocoapods/p/Ansi.svg)
-![Swift](https://img.shields.io/badge/%20in-swift%204.0-orange.svg)
+![Swift](https://img.shields.io/badge/%20in-swift%204.2-orange.svg)
 
 Ansi parser forked from [oleander](https://github.com/oleander/Ansi) updated for Swift 4.2 that constructs `NSAttributedString`s for ANSI-escaped text.
 
