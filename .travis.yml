@@ -4,11 +4,9 @@ osx_image: xcode10.1
 
 install: gem install cocoapods xcpretty fastlane --pre
 podfile: Podfile
-
 xcode_destination: platform=macos
 
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Ansi/${POD_NAME}.xcworkspace -scheme ${POD_NAME} -sdk | xcpretty
-- pod lib lint
+make test lint
 
 notifications:
 email: false
