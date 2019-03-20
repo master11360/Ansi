@@ -1,3 +1,5 @@
+# Ansi [![Status](https://travis-ci.org/MikeManzo/Ansi.svg?branch=master)](https://travis-ci.org/MikeManzo/Ansi)
+
 Ansi parser written in Swift 3 (and now updated for Swift 4.2) for constructing `NSAttributedString`s. Currently supports 8 & 256 bit colors, italic, strikethrough, underline and bold text.
 
 ## Usage
