@@ -3,10 +3,9 @@ language:
 osx_image: xcode10.1
 
 install: gem install cocoapods xcpretty fastlane --pre
-podfile: Podfile
-xcode_destination: platform=macos
-
-make test lint
+xcode_workspace: Ansi.xcworkspace
+xcode_scheme: Ansi
+xcode_destination: platform=macOS
 
 notifications:
 email: false
