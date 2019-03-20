@@ -1,4 +1,13 @@
-language: objective-c
-osx_image: xcode8.3
-install: gem install cocoapods xcpretty fastlane --pre
-script: make test lint
+language:
+  - swift
+osx_image: xcode10.1
+
+xcode_project: Ansi.xcodeproj
+xcode_scheme: Ansi
+xcode_destination: platform=macos
+
+notifications:
+email: false
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
