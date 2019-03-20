@@ -3,9 +3,8 @@ language:
 osx_image: xcode10.1
 
 install: gem install cocoapods xcpretty fastlane --pre
-xcode_workspace: Ansi.xcworkspace
-xcode_scheme: Ansi
-xcode_destination: platform=macOS
+script:
+- set -o pipefail && xcodebuild build -workspace Ansi.xcworkspace -scheme Ansi
 
 notifications:
 email: false
