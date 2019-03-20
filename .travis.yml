@@ -4,7 +4,7 @@ osx_image: xcode10.1
 
 install: gem install cocoapods xcpretty fastlane --pre
 
-xcode_project: Ansi.xcodeproj
+xcode_project: Ansi.xcworkspace
 xcode_scheme: Ansi
 xcode_destination: platform=macos
 
