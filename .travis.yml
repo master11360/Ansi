@@ -3,10 +3,12 @@ language:
 osx_image: xcode10.1
 
 install: gem install cocoapods xcpretty fastlane --pre
+podfile: Podfile
 
-xcode_project: Ansi.xcodeproj
-xcode_scheme: Ansi
 xcode_destination: platform=macos
+
+- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Ansi/${POD_NAME}.xcworkspace -scheme ${POD_NAME} -sdk | xcpretty
+- pod lib lint
 
 notifications:
 email: false
