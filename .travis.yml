@@ -4,6 +4,7 @@ osx_image: xcode10.1
 
 install: gem install cocoapods xcpretty fastlane --pre
 script:
+- set -o pipefail && pod install --verbose --repo-update
 - set -o pipefail && xcodebuild build -workspace Ansi.xcworkspace -scheme Pods-Ansi
 
 notifications:
