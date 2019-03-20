@@ -5,7 +5,7 @@
 ![Cocoapods platforms](https://img.shields.io/cocoapods/p/Ansi.svg)
 ![Swift](https://img.shields.io/badge/%20in-swift%204.2-orange.svg)
 
-Ansi parser forked from [oleander](https://github.com/oleander/Ansi) updated for Swift 4.2 that constructs `NSAttributedString`s for ANSI-escaped text.
+Ansi parser forked from [Linus Oleander](https://github.com/oleander/Ansi) updated for Swift 4.2 that constructs `NSAttributedString`s for ANSI-escaped text.
 
 Currently only supports 8 & 256 bit colors, italic, strikethrough, underline and bold text.
 
