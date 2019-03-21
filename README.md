@@ -3,11 +3,13 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/mikemanzo/Ansi.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/MikeManzo/Ansi.svg)
 ![Cocoapods platforms](https://img.shields.io/cocoapods/p/Ansi.svg)
+![GitHub All Releases](https://img.shields.io/github/downloads/MikeManzo/Ansi/total.svg)
 ![Swift](https://img.shields.io/badge/%20in-swift%204.2-orange.svg)
 
-Ansi parser forked from [Linus Oleander](https://github.com/oleander/Ansi) updated for Swift 4.2 that constructs `NSAttributedString`s for ANSI-escaped text.
+An ANSI parser forked from [Linus Oleander](https://github.com/oleander/Ansi) that has been updated for Swift 4.2.  You can use it two ways: You can read an escaped string and "ansifiy" it as an 'NSAttributedString', or you can take a standard string and output an ANSI escaped string suitable for a terminal or console.
 
-Currently only supports 8 & 256 bit colors, italic, strikethrough, underline and bold text.
+# Support 
+Currently ANSI supports 8 & 256 bit colors, italic, strikethrough, underline and bold text.
 
 ## Usage
 
