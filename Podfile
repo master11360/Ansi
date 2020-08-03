@@ -1,12 +1,14 @@
 target 'Ansi' do
   use_frameworks!
-  platform :osx, '10.11'
+  platform :osx, '10.14'
 
-  podspec
+  pod 'FootlessParser'
+  pod 'Hue'
+  pod 'BonMot'
 
   target 'Tests' do
     inherit! :search_paths
-    pod 'Quick', '> 1.3.2'
-    pod 'Nimble', '> 8.0.0'
+    pod 'Quick'
+    pod 'Nimble'
   end
 end
